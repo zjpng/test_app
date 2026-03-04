@@ -1,6 +1,4 @@
-import dynamic from "next/dynamic";
-
-const RippleCanvas = dynamic(() => import("./RippleCanvas"), { ssr: false });
+import RippleCanvas from "./RippleCanvas";
 
 export default function Home() {
   return (
